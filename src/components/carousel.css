@@ -1,0 +1,43 @@
+@import "slick-carousel/slick/slick.css"; 
+@import "slick-carousel/slick/slick-theme.css";
+
+.cardsection{
+    height: 504px;
+    width: 384px;
+}
+
+.inside-card{
+    margin-top: 120px;
+    padding:32px 24px;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    height: 30vh;
+    border-radius: 20px;
+}
+.slick-arrow {
+    position: absolute;
+    margin-top: 15.5rem; 
+    transform: translate(0, 50%); 
+    /* z-index: 1; */
+}
+
+.slick-prev {
+    left: 4%; /* Position to the left */
+    scale: 3;
+}
+
+.slick-next {
+    right: 85%;
+    scale: 3;
+}
+
+@media (max-width: 787px) {
+    .slick-prev {
+        left: 4%; /* Position to the left */
+        scale: 3;
+    }
+    
+    .slick-next {
+        right: 65%;
+        scale: 3;
+    }
+}
